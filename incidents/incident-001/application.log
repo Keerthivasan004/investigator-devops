@@ -1,0 +1,4 @@
+2026-09-21T14:00:10Z [INFO] api-service: deployed version v2.3 successfully
+2026-09-21T14:03:20Z [WARN] api-service: acquire DB connection timed out after 5000ms
+2026-09-21T14:03:40Z [ERROR] api-service: HTTP 500 Internal Server Error: Database connection timeout
+2026-09-21T14:04:00Z [ERROR] api-service: HTTP 500 Internal Server Error: Database connection timeout

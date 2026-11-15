@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "references": [
+    { "path": "../../packages/evidence" },
+    { "path": "../../packages/hypothesis" },
+    { "path": "../../packages/incident-engine" },
+    { "path": "../../packages/llm" },
+    { "path": "../../packages/evaluation" }
+  ],
+  "include": ["src/**/*"]
+}

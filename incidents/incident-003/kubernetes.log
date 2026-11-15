@@ -1,0 +1,4 @@
+2026-09-21T16:00:15Z [INFO] kubelet: Started container worker-service
+2026-09-21T16:12:00Z [WARN] kubelet: Container worker-service memory usage exceeding 90% of limit
+2026-09-21T16:14:30Z [CRITICAL] kubelet: Container worker-service was OOMKilled (Exit Code 137), memory limit 1024Mi exceeded
+2026-09-21T16:14:35Z [ERROR] kubelet: Pod worker-service-789bf-xyz is in CrashLoopBackOff: back-off 40s restarting failed container

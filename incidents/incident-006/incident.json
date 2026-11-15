@@ -1,0 +1,8 @@
+{
+  "id": "incident-006",
+  "title": "Ingress returning 502 Bad Gateway due to expired TLS/mTLS certificate",
+  "description": "All external API traffic failing with 502 Bad Gateway immediately after midnight UTC while backend pods report healthy.",
+  "services": ["ingress-controller", "api-gateway", "auth-service"],
+  "start_time": "2026-09-22T00:01:00Z",
+  "end_time": "2026-09-22T00:20:00Z"
+}

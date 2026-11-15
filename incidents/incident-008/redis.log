@@ -1,0 +1,7 @@
+2026-09-22T13:58:00Z [INFO] redis: 12000 commands/sec, 99.8% cache hit ratio, memory 2.1GB
+2026-09-22T13:59:00Z [INFO] redis: PING PONG replication stream healthy
+2026-09-22T14:00:00Z [WARN] redis: hot key catalog:trending:products TTL expired (no mutex lock, 0 jitter)
+2026-09-22T14:00:02Z [CRITICAL] redis: cache stampede: simultaneous cache miss burst on expired key catalog:trending:products (24,800 missed queries in 500ms)
+2026-09-22T14:00:05Z [WARN] redis: cache hit ratio plummeted from 99.8% to 12.1% under thundering herd
+2026-09-22T14:00:30Z [INFO] redis: PING PONG replication stream healthy
+2026-09-22T14:01:00Z [WARN] redis: cache penetration: upstream queries bypassing cache layer directly to relational database

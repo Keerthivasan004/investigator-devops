@@ -1,0 +1,10 @@
+2026-09-22T10:55:00Z [INFO] kafka-broker: zookeeper connection alive, epoch 4
+2026-09-22T10:56:00Z [INFO] kafka-broker: cluster heartbeat ok, broker id 2 online
+2026-09-22T10:58:00Z [INFO] kafka-broker: partition orders-topic-0 log flush completed in 8ms
+2026-09-22T10:59:00Z [WARN] kafka-broker: storage volume /var/lib/kafka/data disk usage exceeds 90%
+2026-09-22T11:00:15Z [WARN] kafka-broker: storage volume /var/lib/kafka/data disk usage reached 98%
+2026-09-22T11:01:00Z [CRITICAL] kafka-broker: disk full: java.io.IOException: No space left on device while appending to WAL orders-topic-0/000000000000049281.log
+2026-09-22T11:01:20Z [CRITICAL] kafka-broker: Disk partition /var/lib/kafka/data 100% full: disk storage exhaustion halts commit log appends
+2026-09-22T11:01:45Z [ERROR] kafka-broker: Fatal error during KafkaApis handling produce request: KafkaStorageException
+2026-09-22T11:02:00Z [INFO] kafka-broker: cluster heartbeat ok, broker id 2 online
+2026-09-22T11:02:30Z [ERROR] kafka-broker: unable to sync log segment to disk: no space left on device

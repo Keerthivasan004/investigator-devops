@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-09-22T10:14:00Z",
+    "service": "checkout-api",
+    "metric": "thread_pool_utilization",
+    "value": 12,
+    "unit": "percent",
+    "severity": "info",
+    "message": "thread_pool_utilization is normal (12%)"
+  },
+  {
+    "timestamp": "2026-09-22T10:15:30Z",
+    "service": "checkout-api",
+    "metric": "thread_pool_utilization",
+    "value": 98,
+    "unit": "percent",
+    "severity": "warn",
+    "message": "thread_pool_utilization reached 98%"
+  },
+  {
+    "timestamp": "2026-09-22T10:15:45Z",
+    "service": "checkout-api",
+    "metric": "thread_pool_utilization",
+    "value": 100,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "thread_pool_utilization 100% - thread pool starvation"
+  },
+  {
+    "timestamp": "2026-09-22T10:15:50Z",
+    "service": "order-db",
+    "metric": "cpu_utilization",
+    "value": 24,
+    "unit": "percent",
+    "severity": "info",
+    "message": "order-db cpu_utilization is healthy (24%)"
+  },
+  {
+    "timestamp": "2026-09-22T10:16:00Z",
+    "service": "envoy-gateway",
+    "metric": "retry_multiplier",
+    "value": 14,
+    "unit": "ratio",
+    "severity": "critical",
+    "message": "retry_multiplier reached 14x normal traffic under retry storm"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "incident-010",
+  "title": "Intermittent 500 errors caused by database transaction deadlock and cyclic row lock contention",
+  "description": "High volume of order creation failures with 500 Internal Server Error under concurrent traffic while database compute is normal.",
+  "services": ["postgres-db", "order-api", "inventory-service"],
+  "start_time": "2026-09-22T16:00:00Z",
+  "end_time": "2026-09-22T16:25:00Z"
+}

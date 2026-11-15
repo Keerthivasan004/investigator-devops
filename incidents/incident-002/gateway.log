@@ -1,0 +1,5 @@
+2026-09-21T15:00:10Z [INFO] api-gateway: routing ingress traffic to internal cluster microservices
+2026-09-21T15:02:15Z [WARN] api-gateway: request failed for http://auth-service.prod.svc.cluster.local:8080/verify: getaddrinfo EAI_AGAIN auth-service.prod.svc.cluster.local
+2026-09-21T15:02:30Z [ERROR] api-gateway: upstream connect error or disconnect/reset before headers. reset reason: connection failure, transport failure reason: DNS resolution failed
+2026-09-21T15:03:00Z [ERROR] api-gateway: HTTP 504 Gateway Timeout on /api/v1/checkout
+2026-09-21T15:03:15Z [ERROR] api-gateway: HTTP 500 Internal Server Error: failed to resolve upstream backend

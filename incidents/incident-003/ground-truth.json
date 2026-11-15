@@ -1,0 +1,23 @@
+{
+  "incidentId": "incident-003",
+  "rootCause": "Application memory leak leading to container OOMKilled",
+  "rootCauseCategory": "application_memory_leak_oomkilled",
+  "contributingFactors": [
+    "unevicted_cache_payloads_deployment_v1.8",
+    "gc_thrashing"
+  ],
+  "intermediateEffects": [
+    "heap_saturation",
+    "linux_kernel_oom_killer_signal_9"
+  ],
+  "symptoms": [
+    "crashloopbackoff",
+    "pod_termination_exit_137"
+  ],
+  "essentialEvidenceIds": [
+    "kubernetes.log",
+    "application.log",
+    "metrics.json",
+    "deployment.json"
+  ]
+}

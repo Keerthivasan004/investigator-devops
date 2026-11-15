@@ -1,0 +1,23 @@
+{
+  "incidentId": "incident-007",
+  "rootCause": "Kubernetes ConfigMap environment variable drift triggering silent dummy auth fallback and mass 401 errors",
+  "rootCauseCategory": "configmap_environment_drift",
+  "contributingFactors": [
+    "malformed_auth_provider_url_in_configmap",
+    "silent_fallback_to_dummy_validator"
+  ],
+  "intermediateEffects": [
+    "dns_resolution_failure_for_auth_host",
+    "jwt_signature_validation_failure",
+    "mass_token_rejection"
+  ],
+  "symptoms": [
+    "http_401_unauthorized_burst",
+    "user_login_lockout"
+  ],
+  "essentialEvidenceIds": [
+    "config.json",
+    "application.log",
+    "metrics.json"
+  ]
+}

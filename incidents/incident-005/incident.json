@@ -1,0 +1,8 @@
+{
+  "id": "incident-005",
+  "title": "Storage partition exhaustion freezing Kafka broker write-ahead log",
+  "description": "Order processing pipeline halted with consumer lag exploding and async payment events timing out.",
+  "services": ["kafka-broker", "order-consumer", "event-producer", "storage-node"],
+  "start_time": "2026-09-22T11:00:00Z",
+  "end_time": "2026-09-22T11:25:00Z"
+}

@@ -1,0 +1,9 @@
+2026-09-22T15:58:00Z [INFO] postgres: checkpoint complete: wrote 89 buffers (0.1%); 0 WAL file(s) added
+2026-09-22T15:59:00Z [INFO] postgres: active connections: 22/100, buffer hit ratio 99.4%
+2026-09-22T16:00:15Z [WARN] postgres: process 19482 acquired ExclusiveLock on relation orders (transaction tx-88192)
+2026-09-22T16:00:16Z [WARN] postgres: process 19499 acquired ExclusiveLock on relation inventory_items (transaction tx-88193)
+2026-09-22T16:00:17Z [CRITICAL] postgres: ERROR: deadlock detected: Process 19482 waits for ShareLock on transaction 88193; Process 19499 waits for ExclusiveLock on relation orders
+2026-09-22T16:00:18Z [CRITICAL] postgres: transaction deadlock: cyclic row lock contention detected between tx-88192 and tx-88193 (detail: Process 19482: UPDATE orders ... Process 19499: UPDATE inventory_items ...)
+2026-09-22T16:00:20Z [ERROR] postgres: statement abort: 40P01: deadlock detected, transaction rolled back
+2026-09-22T16:01:00Z [INFO] postgres: active connections: 24/100, memory usage normal
+2026-09-22T16:01:30Z [ERROR] postgres: ERROR: deadlock detected: Process 19504 waits for ExclusiveLock on tuple (4, 12) of relation inventory_items

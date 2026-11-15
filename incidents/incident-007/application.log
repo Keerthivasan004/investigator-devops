@@ -1,0 +1,10 @@
+2026-09-22T11:58:00Z [INFO] user-api: GET /healthz 200 OK 1.0ms
+2026-09-22T11:59:10Z [INFO] user-api: reloading configuration from mounted configmap user-api-config
+2026-09-22T11:59:15Z [WARN] user-api: ConfigMap drift detected: AUTH_PROVIDER_URL endpoint updated to http://auth-servce.prod.svc.cluster.local:8080
+2026-09-22T11:59:30Z [ERROR] user-api: failed to resolve auth host auth-servce: ENOTFOUND, invalid ConfigMap environment variable
+2026-09-22T11:59:35Z [CRITICAL] user-api: configuration drift: falling back to offline dummy validator due to invalid AUTH_PROVIDER_URL in ConfigMap
+2026-09-22T12:00:00Z [ERROR] user-api: token verification rejected: signature mismatch using dummy verification key
+2026-09-22T12:00:05Z [ERROR] user-api: HTTP 401 Unauthorized returned to client req-0019238
+2026-09-22T12:00:30Z [INFO] user-api: GET /healthz 200 OK 1.1ms
+2026-09-22T12:01:00Z [ERROR] user-api: mass authentication failure: 1,420 requests returned 401 Unauthorized in 60s
+2026-09-22T12:01:30Z [INFO] user-api: GET /healthz 200 OK 1.0ms

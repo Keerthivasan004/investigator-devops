@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-09-22T14:58:00Z",
+    "service": "cni-network",
+    "metric": "tcp_retransmission_rate",
+    "value": 0.2,
+    "unit": "percent",
+    "severity": "info",
+    "message": "tcp_retransmission_rate normal (0.2%)"
+  },
+  {
+    "timestamp": "2026-09-22T15:01:00Z",
+    "service": "cni-network",
+    "metric": "tcp_retransmission_rate",
+    "value": 38.4,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "tcp_retransmission_rate reached 38.4% due to MTU mismatch packet loss"
+  },
+  {
+    "timestamp": "2026-09-22T15:01:30Z",
+    "service": "order-service",
+    "metric": "cpu_utilization",
+    "value": 6,
+    "unit": "percent",
+    "severity": "info",
+    "message": "order-service cpu_utilization is idle (6%)"
+  },
+  {
+    "timestamp": "2026-09-22T15:01:45Z",
+    "service": "order-service",
+    "metric": "memory_utilization",
+    "value": 32,
+    "unit": "percent",
+    "severity": "info",
+    "message": "order-service memory_utilization is healthy (32%)"
+  }
+]

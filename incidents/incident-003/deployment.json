@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-09-21T16:00:00Z",
+    "service": "worker-service",
+    "type": "deployment",
+    "version": "v1.8",
+    "commit": "e8f9a0b",
+    "message": "Add in-memory cache for event stream payloads without eviction TTL"
+  }
+]

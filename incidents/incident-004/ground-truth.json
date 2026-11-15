@@ -1,0 +1,22 @@
+{
+  "incidentId": "incident-004",
+  "rootCause": "Cascading retry storm with zero backoff causing thread pool starvation",
+  "rootCauseCategory": "retry_storm_thread_starvation",
+  "contributingFactors": [
+    "misconfigured_retry_policy_zero_backoff",
+    "thundering_herd_amplification"
+  ],
+  "intermediateEffects": [
+    "worker_thread_pool_exhaustion",
+    "request_queue_saturation"
+  ],
+  "symptoms": [
+    "http_504_timeouts",
+    "thread_rejection_errors"
+  ],
+  "essentialEvidenceIds": [
+    "gateway.log",
+    "application.log",
+    "metrics.json"
+  ]
+}

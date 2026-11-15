@@ -1,0 +1,5 @@
+2026-09-22T13:58:00Z [INFO] postgres: active connections: 8/100, checkpoint ok
+2026-09-22T14:00:03Z [WARN] postgres: sudden surge in parallel SELECT queries on products table (connections 12 -> 88 in 2s)
+2026-09-22T14:00:06Z [CRITICAL] postgres: connection pool exhausted (100/100 connections), queueing 18,200 pending query requests
+2026-09-22T14:00:15Z [ERROR] postgres: canceling statement due to statement_timeout (30000ms exceeded)
+2026-09-22T14:00:30Z [ERROR] postgres: remaining connection slots are reserved for non-replication superuser connections

@@ -1,0 +1,24 @@
+{
+  "name": "@investigator/cli",
+  "version": "0.1.0",
+  "description": "Unified CLI for the AI Evidence-Driven Incident Investigator by Keerthivasan.R.V",
+  "author": "Keerthivasan.R.V",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "investigator": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@investigator/evidence": "workspace:*",
+    "@investigator/hypothesis": "workspace:*",
+    "@investigator/incident-engine": "workspace:*",
+    "@investigator/llm": "workspace:*",
+    "@investigator/evaluation": "workspace:*"
+  }
+}

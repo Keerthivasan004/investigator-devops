@@ -1,0 +1,5 @@
+2026-09-21T15:00:00Z [INFO] coredns: CoreDNS-1.10.1 starting up
+2026-09-21T15:01:45Z [WARN] coredns: plugin/forward: no nameservers found
+2026-09-21T15:02:00Z [ERROR] coredns: plugin/errors: 2 auth-service.prod.svc.cluster.local. A: read udp 10.96.0.10:53->8.8.8.8:53: i/o timeout
+2026-09-21T15:02:10Z [CRITICAL] coredns: CoreDNS upstream DNS timeout: unreachable upstream resolver
+2026-09-21T15:02:40Z [ERROR] coredns: plugin/errors: 2 payment-service.prod.svc.cluster.local. A: read udp 10.96.0.10:53->8.8.8.8:53: i/o timeout

@@ -1,0 +1,22 @@
+{
+  "incidentId": "incident-001",
+  "rootCause": "Database connection pool exhaustion caused by unindexed order query in deployment v2.3",
+  "rootCauseCategory": "database_connection_pool_exhaustion",
+  "contributingFactors": [
+    "unindexed_slow_query_deployment_v2.3"
+  ],
+  "intermediateEffects": [
+    "query_latency_increase",
+    "connection_pool_saturation",
+    "api_thread_blocking"
+  ],
+  "symptoms": [
+    "http_500_errors",
+    "high_cpu"
+  ],
+  "essentialEvidenceIds": [
+    "database.log",
+    "metrics.json",
+    "deployment.json"
+  ]
+}

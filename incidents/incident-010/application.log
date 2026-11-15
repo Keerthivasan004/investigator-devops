@@ -1,0 +1,5 @@
+2026-09-22T15:58:00Z [INFO] order-api: server listening on port 8080, health ok
+2026-09-22T16:00:19Z [ERROR] order-api: transaction failed: Database error: 40P01: deadlock detected
+2026-09-22T16:00:20Z [ERROR] order-api: HTTP 500 Internal Server Error returned on POST /v1/orders/checkout
+2026-09-22T16:00:30Z [INFO] order-api: GET /healthz 200 OK 1.2ms
+2026-09-22T16:01:32Z [ERROR] order-api: transaction rolled back due to row lock deadlock

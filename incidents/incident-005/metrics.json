@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-09-22T10:55:00Z",
+    "service": "kafka-broker",
+    "metric": "disk_space_utilization",
+    "value": 82,
+    "unit": "percent",
+    "severity": "info",
+    "message": "storage volume disk_space_utilization is 82%"
+  },
+  {
+    "timestamp": "2026-09-22T11:00:15Z",
+    "service": "kafka-broker",
+    "metric": "disk_space_utilization",
+    "value": 98,
+    "unit": "percent",
+    "severity": "warn",
+    "message": "storage volume disk_space_utilization reached 98%"
+  },
+  {
+    "timestamp": "2026-09-22T11:01:20Z",
+    "service": "kafka-broker",
+    "metric": "disk_space_utilization",
+    "value": 100,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "storage volume disk_space_utilization 100% - disk full"
+  },
+  {
+    "timestamp": "2026-09-22T11:02:00Z",
+    "service": "kafka-broker",
+    "metric": "jvm_heap_usage",
+    "value": 45,
+    "unit": "percent",
+    "severity": "info",
+    "message": "kafka broker jvm_heap_usage is normal (45%)"
+  },
+  {
+    "timestamp": "2026-09-22T11:03:00Z",
+    "service": "order-consumer",
+    "metric": "consumer_lag",
+    "value": 145000,
+    "unit": "messages",
+    "severity": "critical",
+    "message": "consumer_lag spiked to 145,000 unread messages"
+  }
+]

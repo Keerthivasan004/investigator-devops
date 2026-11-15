@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2026-09-22T11:58:00Z",
+    "service": "user-api",
+    "metric": "http_401_rate",
+    "value": 0,
+    "unit": "percent",
+    "severity": "info",
+    "message": "http_401_rate normal (0%)"
+  },
+  {
+    "timestamp": "2026-09-22T12:00:05Z",
+    "service": "user-api",
+    "metric": "http_401_rate",
+    "value": 99.4,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "http_401_rate reached 99.4% unauthorized due to invalid config fallback"
+  },
+  {
+    "timestamp": "2026-09-22T12:00:30Z",
+    "service": "auth-service",
+    "metric": "cpu_utilization",
+    "value": 14,
+    "unit": "percent",
+    "severity": "info",
+    "message": "auth-service is healthy and idle (14% cpu)"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "incidentId": "incident-002",
+  "rootCause": "CoreDNS name resolution timeout / DNS failure",
+  "rootCauseCategory": "coredns_resolution_failure",
+  "contributingFactors": [
+    "upstream_dns_resolver_unreachable",
+    "dns_udp_io_timeout"
+  ],
+  "intermediateEffects": [
+    "eai_again_resolution_failure",
+    "upstream_gateway_connection_timeout"
+  ],
+  "symptoms": [
+    "http_504_errors",
+    "http_500_errors"
+  ],
+  "essentialEvidenceIds": [
+    "coredns.log",
+    "gateway.log",
+    "metrics.json"
+  ]
+}

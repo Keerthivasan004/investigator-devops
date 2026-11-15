@@ -1,0 +1,8 @@
+{
+  "id": "incident-002",
+  "title": "Internal API Gateway reporting 504 Gateway Timeout and 500 errors",
+  "description": "API Gateway is experiencing high error rates and timeouts during inter-service communication.",
+  "startTime": "2026-09-21T15:00:00Z",
+  "endTime": "2026-09-21T15:10:00Z",
+  "services": ["api-gateway", "coredns", "auth-service"]
+}

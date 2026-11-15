@@ -1,0 +1,5 @@
+2026-09-22T14:58:00Z [INFO] api-gateway: GET /healthz 200 OK 0.9ms
+2026-09-22T15:00:30Z [WARN] api-gateway: upstream call to order-service took 6500ms (normal: 25ms)
+2026-09-22T15:01:15Z [ERROR] api-gateway: downstream HTTP 504 Gateway Timeout: client connection timed out waiting for upstream gRPC reply
+2026-09-22T15:01:30Z [INFO] api-gateway: GET /healthz 200 OK 1.0ms
+2026-09-22T15:02:00Z [ERROR] api-gateway: transport: Error while dialing: context deadline exceeded

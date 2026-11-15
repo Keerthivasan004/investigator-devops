@@ -1,0 +1,9 @@
+2026-09-22T10:14:00Z [INFO] checkout-api: worker pool active threads: 14/200
+2026-09-22T10:14:30Z [INFO] checkout-api: background queue heartbeat ok
+2026-09-22T10:15:00Z [INFO] checkout-api: worker pool active threads: 18/200
+2026-09-22T10:15:25Z [WARN] checkout-api: incoming request burst triggered by upstream retries (rate 3400 req/s)
+2026-09-22T10:15:30Z [WARN] checkout-api: thread pool saturation at 98% (196/200 worker threads busy)
+2026-09-22T10:15:45Z [CRITICAL] checkout-api: ThreadPoolExecutor rejected execution: queue capacity 1000 exceeded, thread pool starvation
+2026-09-22T10:16:00Z [ERROR] checkout-api: RejectedExecutionException: Task org.checkout.ProcessOrder rejected from java.util.concurrent.ThreadPoolExecutor
+2026-09-22T10:16:15Z [CRITICAL] checkout-api: worker thread pool exhausted, cannot process incoming requests
+2026-09-22T10:16:30Z [INFO] checkout-api: background queue heartbeat ok

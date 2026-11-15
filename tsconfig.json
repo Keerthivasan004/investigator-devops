@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/evidence" },
+    { "path": "./packages/llm" },
+    { "path": "./packages/hypothesis" },
+    { "path": "./packages/incident-engine" },
+    { "path": "./packages/evaluation" },
+    { "path": "./apps/cli" }
+  ]
+}

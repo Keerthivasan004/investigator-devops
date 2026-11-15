@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2026-09-22T13:58:00Z",
+    "service": "redis-cluster",
+    "metric": "cache_hit_ratio",
+    "value": 99.8,
+    "unit": "percent",
+    "severity": "info",
+    "message": "cache_hit_ratio optimal at 99.8%"
+  },
+  {
+    "timestamp": "2026-09-22T14:00:05Z",
+    "service": "redis-cluster",
+    "metric": "cache_hit_ratio",
+    "value": 12.1,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "cache_hit_ratio collapsed to 12.1% due to cache stampede on expired hot key"
+  },
+  {
+    "timestamp": "2026-09-22T14:00:06Z",
+    "service": "postgres-db",
+    "metric": "connection_pool_usage",
+    "value": 100,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "postgres connection_pool_usage 100% saturated by un-cached query flood"
+  }
+]

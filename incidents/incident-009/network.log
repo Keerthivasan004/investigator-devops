@@ -1,0 +1,7 @@
+2026-09-22T14:55:00Z [INFO] cni-network: vxlan tunnel vxlan.calico healthy, rx_packets: 1204921
+2026-09-22T14:58:00Z [INFO] cni-network: routine interface check eth0 mtu 1500, vxlan0 mtu 1500
+2026-09-22T14:59:00Z [WARN] cni-network: MTU mismatch detected: outer encapsulation header exceeds interface MTU (packet size 1528 > MTU 1500 with DF set)
+2026-09-22T15:00:10Z [CRITICAL] cni-network: icmp need frag (mtu 1450) dropped: PMTU discovery blackhole on node-worker-3
+2026-09-22T15:01:00Z [CRITICAL] cni-network: TCP retransmissions spike to 38%: network packet loss degradation and window stalling across pods
+2026-09-22T15:02:00Z [ERROR] cni-network: tcp_syn_retries exhausted on pod-to-pod stream order-service -> inventory-service
+2026-09-22T15:03:00Z [INFO] cni-network: rx_dropped count increasing rapidly (+89,000 packets)

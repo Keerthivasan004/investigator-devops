@@ -1,0 +1,7 @@
+[
+  { "timestamp": "2026-09-21T14:01:00Z", "service": "postgres", "type": "metric", "metric": "connection_pool_usage", "value": 45, "unit": "percent" },
+  { "timestamp": "2026-09-21T14:02:30Z", "service": "postgres", "type": "metric", "metric": "connection_pool_usage", "value": 85, "unit": "percent" },
+  { "timestamp": "2026-09-21T14:03:10Z", "service": "postgres", "type": "metric", "metric": "connection_pool_usage", "value": 100, "unit": "percent" },
+  { "timestamp": "2026-09-21T14:03:50Z", "service": "api", "type": "metric", "metric": "http_500_rate", "value": 18.5, "unit": "percent" },
+  { "timestamp": "2026-09-21T14:04:00Z", "service": "api", "type": "metric", "metric": "cpu_utilization", "value": 92, "unit": "percent" }
+]

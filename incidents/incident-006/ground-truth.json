@@ -1,0 +1,22 @@
+{
+  "incidentId": "incident-006",
+  "rootCause": "Ingress TLS/SSL certificate expired causing TLS handshake failure and 502 Bad Gateway",
+  "rootCauseCategory": "tls_certificate_expired",
+  "contributingFactors": [
+    "cert_manager_auto_renewal_failure",
+    "x509_validity_period_passed"
+  ],
+  "intermediateEffects": [
+    "tls_handshake_aborted",
+    "ssl3_alert_certificate_expired",
+    "ingress_upstream_connection_dropped"
+  ],
+  "symptoms": [
+    "http_502_bad_gateway",
+    "api_unreachable"
+  ],
+  "essentialEvidenceIds": [
+    "ingress.log",
+    "metrics.json"
+  ]
+}

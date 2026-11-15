@@ -1,0 +1,7 @@
+[
+  { "timestamp": "2026-09-21T16:02:00Z", "service": "worker-service", "type": "metric", "metric": "container_memory_usage_percent", "value": 45, "unit": "percent" },
+  { "timestamp": "2026-09-21T16:06:00Z", "service": "worker-service", "type": "metric", "metric": "container_memory_usage_percent", "value": 72, "unit": "percent" },
+  { "timestamp": "2026-09-21T16:10:00Z", "service": "worker-service", "type": "metric", "metric": "container_memory_usage_percent", "value": 89, "unit": "percent" },
+  { "timestamp": "2026-09-21T16:14:00Z", "service": "worker-service", "type": "metric", "metric": "container_memory_usage_percent", "value": 99.8, "unit": "percent" },
+  { "timestamp": "2026-09-21T16:14:20Z", "service": "worker-service", "type": "metric", "metric": "process_cpu_utilization", "value": 98, "unit": "percent" }
+]

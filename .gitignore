@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and distribution outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+*.tgz
+
+# Test and coverage artifacts
+coverage/
+*.lcov
+.nyc_output
+.vitest/
+
+# Logs and runtime diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Preserve synthetic telemetry log files in incident laboratory fixtures
+!incidents/**/*.log
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Cache directories
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+.stylelintcache
+
+# IDE and Editor files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Temporary files
+*.tmp
+*.temp

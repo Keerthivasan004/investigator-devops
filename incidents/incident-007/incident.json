@@ -1,0 +1,8 @@
+{
+  "id": "incident-007",
+  "title": "Mass 401 Unauthorized errors following ConfigMap environment secret drift",
+  "description": "Users locked out with 401 Unauthorized across mobile and web clients after deployment config update.",
+  "services": ["user-api", "auth-service", "k8s-configmap"],
+  "start_time": "2026-09-22T12:00:00Z",
+  "end_time": "2026-09-22T12:20:00Z"
+}

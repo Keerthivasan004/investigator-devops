@@ -1,0 +1,16 @@
+2026-09-22T10:14:00Z [INFO] envoy-gateway: GET /healthz 200 OK 1.2ms
+2026-09-22T10:14:15Z [INFO] envoy-gateway: GET /healthz 200 OK 1.1ms
+2026-09-22T10:14:30Z [INFO] envoy-gateway: GET /healthz 200 OK 1.4ms
+2026-09-22T10:14:45Z [INFO] envoy-gateway: GET /healthz 200 OK 1.2ms
+2026-09-22T10:15:00Z [INFO] envoy-gateway: upstream checkout-api latency normal 45ms
+2026-09-22T10:15:10Z [INFO] envoy-gateway: GET /healthz 200 OK 1.3ms
+2026-09-22T10:15:20Z [WARN] envoy-gateway: payment-service response took 2100ms (timeout threshold 2000ms)
+2026-09-22T10:15:21Z [INFO] envoy-gateway: client retry attempt 1/5 for request req-99182 immediately
+2026-09-22T10:15:22Z [INFO] envoy-gateway: client retry attempt 2/5 for request req-99182 immediately
+2026-09-22T10:15:23Z [INFO] envoy-gateway: client retry attempt 3/5 for request req-99182 immediately
+2026-09-22T10:15:25Z [WARN] envoy-gateway: retry storm detected: client retry multiplier exceeded 12x normal traffic volume
+2026-09-22T10:15:30Z [INFO] envoy-gateway: GET /healthz 200 OK 1.3ms
+2026-09-22T10:15:45Z [ERROR] envoy-gateway: upstream checkout-api connection queue full, dropping requests
+2026-09-22T10:16:00Z [ERROR] envoy-gateway: HTTP 504 Gateway Timeout on /v1/checkout/process
+2026-09-22T10:16:15Z [INFO] envoy-gateway: GET /healthz 200 OK 1.5ms
+2026-09-22T10:16:30Z [INFO] envoy-gateway: GET /healthz 200 OK 1.2ms

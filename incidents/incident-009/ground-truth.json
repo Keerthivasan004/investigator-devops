@@ -1,0 +1,23 @@
+{
+  "incidentId": "incident-009",
+  "rootCause": "Overlay network MTU mismatch causing severe TCP packet retransmissions and window collapse",
+  "rootCauseCategory": "network_packet_loss_mtu_degradation",
+  "contributingFactors": [
+    "vxlan_encapsulation_overhead_ignored",
+    "path_mtu_discovery_blackhole"
+  ],
+  "intermediateEffects": [
+    "tcp_retransmission_storm",
+    "sliding_window_stalling",
+    "rpc_deadline_timeout"
+  ],
+  "symptoms": [
+    "cross_service_latency_spike",
+    "http_504_gateway_timeout"
+  ],
+  "essentialEvidenceIds": [
+    "network.log",
+    "gateway.log",
+    "metrics.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "incidentId": "incident-010",
+  "rootCause": "Database transaction deadlock and cyclic row lock contention causing statement aborts",
+  "rootCauseCategory": "transaction_deadlock_lock_contention",
+  "contributingFactors": [
+    "un_ordered_concurrent_table_updates",
+    "exclusive_row_lock_cycling"
+  ],
+  "intermediateEffects": [
+    "postgres_deadlock_detection_signal",
+    "40p01_transaction_rollback",
+    "order_creation_aborts"
+  ],
+  "symptoms": [
+    "http_500_internal_server_error",
+    "intermittent_checkout_failures"
+  ],
+  "essentialEvidenceIds": [
+    "database.log",
+    "application.log",
+    "metrics.json"
+  ]
+}

@@ -1,0 +1,6 @@
+2026-09-22T10:55:00Z [INFO] order-consumer: polling partition orders-topic-0 offset 49280
+2026-09-22T10:58:00Z [INFO] order-consumer: processed 250 order events successfully
+2026-09-22T11:01:30Z [WARN] order-consumer: broker 2 disconnected or unresponsive during fetch
+2026-09-22T11:02:00Z [ERROR] order-consumer: DisconnectException: marked broker dead, attempting group rebalance
+2026-09-22T11:02:30Z [WARN] order-consumer: consumer lag accumulating rapidly (lag: 145,000 unread messages)
+2026-09-22T11:03:00Z [ERROR] order-consumer: consumer group rebalance loop timed out waiting for partition leader

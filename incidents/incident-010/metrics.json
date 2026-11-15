@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-09-22T15:58:00Z",
+    "service": "postgres-db",
+    "metric": "deadlock_count",
+    "value": 0,
+    "unit": "events",
+    "severity": "info",
+    "message": "deadlock_count normal (0)"
+  },
+  {
+    "timestamp": "2026-09-22T16:00:20Z",
+    "service": "postgres-db",
+    "metric": "deadlock_count",
+    "value": 28,
+    "unit": "events",
+    "severity": "critical",
+    "message": "deadlock_count spiked to 28 deadlocks per minute"
+  },
+  {
+    "timestamp": "2026-09-22T16:00:30Z",
+    "service": "postgres-db",
+    "metric": "connection_pool_usage",
+    "value": 24,
+    "unit": "percent",
+    "severity": "info",
+    "message": "connection_pool_usage is healthy (24/100 connections)"
+  },
+  {
+    "timestamp": "2026-09-22T16:00:35Z",
+    "service": "postgres-db",
+    "metric": "cpu_utilization",
+    "value": 12,
+    "unit": "percent",
+    "severity": "info",
+    "message": "postgres-db cpu_utilization is low (12%)"
+  }
+]

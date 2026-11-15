@@ -1,0 +1,23 @@
+{
+  "incidentId": "incident-008",
+  "rootCause": "Redis cache stampede / dogpiling meltdown on expired hot key overwhelming database connection pool",
+  "rootCauseCategory": "redis_cache_stampede",
+  "contributingFactors": [
+    "synchronized_ttl_expiration_without_jitter",
+    "missing_single_flight_mutex_lock"
+  ],
+  "intermediateEffects": [
+    "cache_hit_ratio_collapse",
+    "thundering_herd_database_query_avalanche",
+    "database_connection_pool_exhaustion"
+  ],
+  "symptoms": [
+    "http_500_database_timeout",
+    "elevated_query_queue_depth"
+  ],
+  "essentialEvidenceIds": [
+    "redis.log",
+    "database.log",
+    "metrics.json"
+  ]
+}

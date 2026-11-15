@@ -1,0 +1,9 @@
+2026-09-21T23:58:00Z [INFO] ingress-nginx: configuration reload successful, 0 errors
+2026-09-21T23:59:30Z [INFO] ingress-nginx: GET /healthz 200 OK 0.8ms
+2026-09-22T00:00:05Z [WARN] ingress-nginx: client SSL handshake failed: certificate validation error
+2026-09-22T00:00:10Z [CRITICAL] ingress-nginx: SSL certificate expired: x509: certificate has expired or is not yet valid: current_time=2026-09-22T00:00:10Z notAfter=2026-09-22T00:00:00Z (cert: api-tls-cert)
+2026-09-22T00:00:15Z [CRITICAL] ingress-nginx: TLS handshake error: remote error: tls: bad certificate / certificate expired
+2026-09-22T00:00:30Z [ERROR] ingress-nginx: SSL routines:ssl3_read_bytes:tlsv1 alert certificate expired: upstream SSL connection terminated
+2026-09-22T00:01:00Z [ERROR] ingress-nginx: 10.244.1.15 - [22/Sep/2026:00:01:00 +0000] "POST /v1/auth HTTP/1.1" 502 0 "-" "curl/7.68.0"
+2026-09-22T00:01:15Z [INFO] ingress-nginx: GET /healthz 200 OK 0.9ms
+2026-09-22T00:01:30Z [ERROR] ingress-nginx: 10.244.1.18 - [22/Sep/2026:00:01:30 +0000] "GET /v1/users HTTP/1.1" 502 0 "-" "Mozilla/5.0"

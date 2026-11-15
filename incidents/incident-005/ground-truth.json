@@ -1,0 +1,23 @@
+{
+  "incidentId": "incident-005",
+  "rootCause": "Disk space saturation and storage exhaustion freezing Kafka broker WAL commit logs",
+  "rootCauseCategory": "disk_space_storage_exhaustion",
+  "contributingFactors": [
+    "kafka_log_segment_retention_unbounded",
+    "storage_volume_capacity_exhausted"
+  ],
+  "intermediateEffects": [
+    "kafka_wal_io_lock_failure",
+    "broker_disconnect_consumer_group_rebalance_loop",
+    "consumer_lag_accumulation"
+  ],
+  "symptoms": [
+    "consumer_group_timeout",
+    "async_pipeline_freeze"
+  ],
+  "essentialEvidenceIds": [
+    "kafka.log",
+    "consumer.log",
+    "metrics.json"
+  ]
+}

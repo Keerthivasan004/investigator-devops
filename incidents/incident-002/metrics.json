@@ -1,0 +1,6 @@
+[
+  { "timestamp": "2026-09-21T15:01:00Z", "service": "coredns", "type": "metric", "metric": "dns_request_duration_seconds", "value": 0.002, "unit": "seconds" },
+  { "timestamp": "2026-09-21T15:02:10Z", "service": "coredns", "type": "metric", "metric": "dns_request_duration_seconds", "value": 5.2, "unit": "seconds" },
+  { "timestamp": "2026-09-21T15:02:30Z", "service": "coredns", "type": "metric", "metric": "dns_request_failures_total", "value": 420, "unit": "count" },
+  { "timestamp": "2026-09-21T15:03:00Z", "service": "api-gateway", "type": "metric", "metric": "http_504_rate", "value": 45.2, "unit": "percent" }
+]

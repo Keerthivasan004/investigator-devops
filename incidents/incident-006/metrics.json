@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2026-09-21T23:59:00Z",
+    "service": "api-gateway",
+    "metric": "cpu_utilization",
+    "value": 4,
+    "unit": "percent",
+    "severity": "info",
+    "message": "api-gateway cpu_utilization is completely idle (4%)"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:10Z",
+    "service": "ingress-controller",
+    "metric": "tls_handshake_failure_rate",
+    "value": 100,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "tls_handshake_failure_rate reached 100% due to expired TLS certificate"
+  },
+  {
+    "timestamp": "2026-09-22T00:01:00Z",
+    "service": "ingress-controller",
+    "metric": "http_502_error_rate",
+    "value": 100,
+    "unit": "percent",
+    "severity": "critical",
+    "message": "http_502_error_rate reached 100% on external ingress routes"
+  }
+]

@@ -1,0 +1,4 @@
+2026-09-21T16:00:20Z [INFO] worker: started event processor version v1.8
+2026-09-21T16:08:10Z [WARN] worker: garbage collection duration exceeded 1200ms
+2026-09-21T16:13:50Z [ERROR] worker: java.lang.OutOfMemoryError: Java heap space
+2026-09-21T16:14:10Z [CRITICAL] worker: Fatal error encountered: out of memory

@@ -1,0 +1,15 @@
+{
+  "kind": "ConfigMap",
+  "name": "user-api-config",
+  "namespace": "production",
+  "data": {
+    "AUTH_PROVIDER_URL": "http://auth-servce.prod.svc.cluster.local:8080",
+    "AUTH_FALLBACK_ENABLED": "true",
+    "JWT_SIGNING_ALGORITHM": "RS256"
+  },
+  "deployment": {
+    "version": "v3.1.2",
+    "appliedAt": "2026-09-22T11:59:00Z",
+    "change": "Updated service endpoints in user-api ConfigMap"
+  }
+}
