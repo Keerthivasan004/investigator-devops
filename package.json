@@ -7,9 +7,10 @@
   "type": "module",
   "main": "./apps/cli/dist/index.js",
   "bin": {
-    "investigator": "./apps/cli/dist/index.js"
+    "investigator": "bin/investigator.js"
   },
   "files": [
+    "bin",
     "apps/cli/dist",
     "incidents",
     "README.md",
