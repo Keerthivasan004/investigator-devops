@@ -1,7 +1,7 @@
 {
   "name": "ai-devops-investigator",
   "version": "0.1.0",
-  "description": "AI Evidence-Driven Incident Investigator created by Keerthivasan.R.V",
+  "description": "Evidence-Driven DevOps Incident Investigator created by Keerthivasan.R.V",
   "author": "Keerthivasan.R.V",
   "license": "MIT",
   "type": "module",
