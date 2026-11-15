@@ -817,7 +817,7 @@ export function getEmbeddedUIDashboardHtml(): string {
         <div>
           <h1>DevOps Incident Investigator</h1>
           <div class="subtitle">Root-cause analysis for service incidents.</div>
-          <div class="author">Created by Keerthivasan.R.V &middot; Release 0.1.0</div>
+          <div class="author">Created by Keerthivasan.R.V &middot; Release 0.1.1</div>
         </div>
       </div>
       <div class="controls" role="search" aria-label="Investigation controls">
@@ -1081,7 +1081,7 @@ export function getEmbeddedUIDashboardHtml(): string {
     </div>
 
     <div class="footer">
-      <span class="footer-brand">DevOps Incident Investigator · Created by Keerthivasan.R.V · Release 0.1.0</span>
+      <span class="footer-brand">DevOps Incident Investigator · Created by Keerthivasan.R.V · Release 0.1.1</span>
       <span>Read-only · Confirm findings against source records before acting</span>
     </div>
   </div>

@@ -1,7 +1,7 @@
 {
   "name": "@investigator/cli",
-  "version": "0.1.0",
-  "description": "Unified CLI for the AI Evidence-Driven Incident Investigator by Keerthivasan.R.V",
+  "version": "0.1.1",
+  "description": "Unified CLI for the Evidence-Driven Incident Investigator by Keerthivasan.R.V",
   "author": "Keerthivasan.R.V",
   "license": "MIT",
   "type": "module",
